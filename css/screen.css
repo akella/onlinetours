@@ -13,8 +13,8 @@
 .special-deals h2 { font-size: 26px; font-weight: normal; color: #787878; text-shadow: 1px 1px 0 white; margin-bottom: 28px; }
 
 .differ { border-top: 1px solid #cecece; border-bottom: 1px solid #cecece; margin-bottom: 30px; margin: 0 -14px 30px -14px; padding: 20px 14px 0 14px; }
-.differ dt { color: #787878; font-size: 20px; margin-bottom: 10px; }
-.differ dd { display: inline-block; width: 45%; margin-right: 2%; vertical-align: top; font-size: 14px; color: #787878; line-height: 1.4; position: relative; margin-bottom: 17px; }
+.differ dt { color: #ec9214; font-size: 20px; margin-bottom: 10px; }
+.differ dd { display: inline-block; width: 45%; margin-right: 2%; vertical-align: top; font-size: 14px; color: #787878; line-height: 1.4; position: relative; margin-bottom: 17px; font-size: 13px; }
 .differ dd a { color: #9bc122; }
 .differ .differ__content { padding-left: 66px; }
 .differ .differ__icon { position: absolute; left: 4px; top: 5px; width: 72px; height: 57px; }
@@ -29,3 +29,55 @@
 .banner .banner__text { font-size: 20px; color: #787878; line-height: 1.4; margin-bottom: 17px; }
 .banner .banner__more { background: #ef9037; padding: 7px 16px; font-size: 14px; float: right; white-space: nowrap; line-height: 1; color: white; }
 .banner .banner__more a { color: white; }
+
+.info-razdel h2 { font-size: 26px; font-weight: normal; color: #787878; text-shadow: 1px 1px 0 white; margin-bottom: 28px; }
+
+.info-razdel, .feedback, .howtotrip, .stuff, .possible { padding: 14px; font-family: "PF Din Text Cond Pro", sans-serif; }
+.info-razdel h3, .feedback h3, .howtotrip h3, .stuff h3, .possible h3 { color: #787878; font-size: 20px; margin-bottom: 10px; font-weight: normal; }
+
+.feedback { position: relative; }
+.feedback h3 { margin-bottom: 15px; }
+.feedback .feedback__nav { position: absolute; right: 15px; top: 12px; text-align: right; }
+.feedback .feedback__nav .feedback__sep { height: 32px; border-right: 1px solid #d8d8d8; box-shadow: 1px 0 0 white; display: inline-block; vertical-align: middle; }
+.feedback .feedback__nav .feedback__prev, .feedback .feedback__nav .feedback__next { background: url(../img/arr-left.png) no-repeat 0 0; width: 20px; height: 17px; display: inline-block; vertical-align: middle; margin: 0 4px; cursor: pointer; }
+.feedback .feedback__nav .feedback__next { background: url(../img/arr-right.png) no-repeat 0 0; }
+.feedback .feedback__item { margin: 0 -14px; background: white; border-bottom: 1px solid #cecece; overflow: hidden; }
+.feedback .feedback__item .feedback__date { background: #434343; height: 31px; line-height: 31px; padding-left: 14px; color: #b2b2b2; font-size: 14px; }
+.feedback .feedback__content { width: 544px; float: left; padding: 14px; }
+.feedback .feedback__content .feedback__userav { float: left; margin-right: 15px; }
+.feedback .feedback__content .feedback__userav img { border-radius: 80px; }
+.feedback .feedback__content .feedback__c { overflow: hidden; font-size: 14px; color: #787878; line-height: 1.4; border-right: 1px solid #d8d8d8; padding-right: 20px; }
+.feedback .feedback__content .feedback__c p { margin-bottom: 0.9em; }
+.feedback .feedback__content .feedback__c a { color: #ec9214; }
+.feedback .feedback__content .feedback__c .feedback__username { font-size: 16px; font-weight: normal; margin-bottom: 3px; }
+.feedback .feedback__content .feedback__c .feedback__username a { color: #9bc122; }
+.feedback .feedback__content .feedback__c .feedback__userinfo { font-size: 14px; color: #b1b1b1; margin-bottom: 10px; }
+.feedback .feedback__meta { float: right; width: 160px; padding: 14px; font-size: 14px; color: #787878; line-height: 1.4; }
+.feedback .feedback__meta .feedback__client { margin-bottom: 20px; font-size: 14px; color: #9bc122; text-decoration: none; display: inline-block; padding: 10px; border: 1px solid #85c13e; }
+
+.howtotrip .howtotrip__steps { margin: 0 -14px; background: white; border-bottom: 1px solid #cecece; border-top: 1px solid #cecece; overflow: hidden; }
+.howtotrip .howtotrip__step { position: relative; margin-left: 65px; float: left; width: 200px; font-size: 14px; color: #787878; line-height: 1.3; padding: 15px 0; }
+.howtotrip .howtotrip__step.howtotrip__3, .howtotrip .howtotrip__step.howtotrip__2 { width: 150px; margin-left: 90px; }
+.howtotrip .howtotrip__step.howtotrip__2, .howtotrip .howtotrip__step.howtotrip__3 { padding-left: 0px; }
+.howtotrip .howtotrip__step.howtotrip__2:before, .howtotrip .howtotrip__step.howtotrip__3:before { content: " "; height: 300px; width: 30px; position: absolute; left: -70px; top: 0; background: url(../img/arr.png) no-repeat 0 0; }
+.howtotrip .howtotrip__step a { color: #99c047; }
+.howtotrip .howtotrip__step i { font-style: normal; position: absolute; left: -47px; top: 15px; font-size: 18px; width: 32px; height: 32px; text-align: center; line-height: 32px; color: white; display: inline-block; background: #ef9037; }
+
+.stuff { font-size: 0; }
+.stuff h3 { border-bottom: 1px solid #cecece; padding-bottom: 10px; margin-left: -14px; padding-left: 14px; position: relative; margin-bottom: 20px; }
+.stuff .stuff__member { display: inline-block; width: 31%; padding-right: 2%; vertical-align: top; margin-bottom: 20px; }
+.stuff .stuff__member .stuff__av { display: inline-block; vertical-align: middle; margin-right: 12px; }
+.stuff .stuff__member .stuff__av img { border-radius: 100px; }
+.stuff .stuff__member .stuff__info { display: inline-block; vertical-align: middle; width: 126px; }
+.stuff .stuff__member .stuff__name { font-size: 16px; color: #787878; display: inline-block; font-weight: normal; }
+.stuff .stuff__member .stuff__position { font-size: 14px; color: #b1b1b1; padding-top: 4px; }
+
+.possible .possible__item { margin-bottom: 16px; margin-left: -14px; margin-right: -14px; overflow: hidden; background: white; border-bottom: 1px solid #cecece; }
+.possible .possible__item .possible__pic { float: left; margin-right: 16px; }
+.possible .possible__item .possible__pic img { display: block; }
+.possible .possible__item .possible__title { font-size: 16px; padding: 8px 0; background: #434343; }
+.possible .possible__item .possible__title a { color: #9bc122; }
+.possible .possible__item .possible__content { padding-top: 10px; padding-right: 10px; padding-bottom: 10px; font-size: 14px; color: #787878; line-height: 1.3; }
+
+.more { text-align: right; font-size: 14px; margin-top: 10px; }
+.more a { color: #ec9214; }

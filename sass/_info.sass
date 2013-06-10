@@ -1,0 +1,213 @@
+.info-razdel
+	@extend %block
+	h2
+		font-size: 26px 
+		font-weight: normal
+		color: #787878
+		text-shadow: 1px 1px 0 #fff
+		margin-bottom: 28px
+%block
+	padding: 14px 
+	font-family: "PF Din Text Cond Pro",sans-serif 
+	h3
+		color: #787878
+		font-size: 20px  
+		margin-bottom: 10px 
+		font-weight: normal
+.feedback
+	@extend %block
+	position: relative
+	h3
+		margin-bottom: 15px 
+	.feedback__nav
+		position: absolute
+		right: 15px 
+		top: 12px 
+		text-align: right
+		.feedback__sep
+			height: 32px 
+			border-right: 1px solid #D8D8D8
+			box-shadow: 1px 0 0 #fff
+			display: inline-block
+			vertical-align: middle
+		.feedback__prev,.feedback__next
+			background: image-url('arr-left.png') no-repeat 0 0
+			width: 20px 
+			height: 17px 
+			display: inline-block
+			vertical-align: middle
+			margin: 0 4px 
+			cursor: pointer
+		.feedback__next
+			background: image-url('arr-right.png') no-repeat 0 0
+	.feedback__item
+		margin: 0 -14px 
+		background: #fff 
+		border-bottom: 1px solid #CECECE 
+		overflow: hidden
+		.feedback__date
+			background: #434343
+			height: 31px  
+			line-height: 31px 
+			padding-left: 14px 
+			color: #b2b2b2 
+			font-size: 14px
+	.feedback__content
+		width: 544px 
+		float: left
+		padding: 14px 
+		.feedback__userav
+			float: left
+			margin-right: 15px 
+			img
+				border-radius: 80px 
+		.feedback__c
+			overflow: hidden
+			font-size: 14px 
+			color: #787878
+			line-height: 1.4  
+			border-right: 1px solid #D8D8D8 
+			padding-right: 20px 
+			p
+				margin-bottom: .9em 
+			a
+				color: #ec9214 
+			.feedback__username
+				font-size: 16px 
+				font-weight: normal
+				margin-bottom: 3px 
+				a
+					color: #9bc122 
+			.feedback__userinfo
+				font-size: 14px 
+				color: #b1b1b1
+				margin-bottom: 10px  
+	.feedback__meta
+		float: right
+		width: 160px 
+		padding: 14px 
+		font-size: 14px 
+		color: #787878
+		line-height: 1.4  
+		.feedback__client
+			margin-bottom: 20px 
+			font-size: 14px 
+			color: #9bc122 
+			text-decoration: none
+			display: inline-block
+			padding: 10px 
+			border: 1px solid #85C13E 
+.howtotrip
+	@extend %block
+	.howtotrip__steps
+		margin: 0 -14px 
+		background: #fff 
+		border-bottom: 1px solid #CECECE 
+		border-top: 1px solid #CECECE 
+		overflow: hidden
+	.howtotrip__step
+		position: relative
+		margin-left: 65px 
+		float: left
+		width: 200px 
+		font-size: 14px 
+		color: #787878 
+		line-height: 1.3 
+		padding: 15px 0 
+		&.howtotrip__3,&.howtotrip__2
+			width: 150px 
+			margin-left: 90px 
+		&.howtotrip__2, &.howtotrip__3
+			padding-left: 0px  
+			&:before
+				content: ' '
+				height: 300px 
+				width: 30px 
+				position: absolute
+				left: -70px
+				top: 0 
+				background: image-url('arr.png') no-repeat 0 0
+		a
+			color: #99C047 
+		i
+			font-style: normal
+			position: absolute
+			left: -47px 
+			top: 15px
+			font-size: 18px 
+			width: 32px 
+			height: 32px 
+			text-align: center
+			line-height: 32px 
+			color: #fff 
+			display: inline-block
+			background: #EF9037 
+.stuff
+	font-size: 0 
+	@extend %block
+	h3
+		border-bottom: 1px solid #CECECE 
+		padding-bottom: 10px 
+		margin-left: -14px 
+		padding-left: 14px 
+		position: relative
+		margin-bottom: 20px 
+	.stuff__member
+		display: inline-block
+		width: 31% 
+		padding-right: 2% 
+		vertical-align: top
+		margin-bottom: 20px 
+		.stuff__av
+			display: inline-block
+			vertical-align: middle
+			margin-right: 12px 
+			img
+				border-radius: 100px 
+		.stuff__info
+			display: inline-block
+			vertical-align: middle
+			width: 126px 
+		.stuff__name
+			font-size: 16px 
+			color: #787878 
+			display: inline-block
+			font-weight: normal
+		.stuff__position
+			font-size: 14px 
+			color: #b1b1b1 
+			padding-top: 4px 
+.possible
+	@extend %block
+	.possible__item
+		margin-bottom: 16px 
+		margin-left: -14px 
+		margin-right: -14px 
+		overflow: hidden
+		background: #fff 
+		border-bottom: 1px solid #CECECE 
+		.possible__pic
+			float: left
+			margin-right: 16px 
+			img
+				display: block
+		.possible__title
+			font-size: 16px
+			padding: 8px  0
+			background: #434343 
+			a
+				color: #9bc122 
+		.possible__content
+			padding-top: 10px 
+			padding-right: 10px 
+			padding-bottom: 10px 
+			font-size: 14px 
+			color: #787878
+			line-height: 1.3  
+
+.more
+	text-align: right
+	font-size: 14px 
+	margin-top: 10px 
+	a
+		color: #ec9214 
