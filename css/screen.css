@@ -87,12 +87,13 @@
 .client .client__content { padding: 14px; }
 .client .client__content .client__av { float: left; margin-right: 15px; }
 .client .client__content .client__av img { border-radius: 80px; }
-.client .client__message { display: table; padding: 15px; border: 1px dashed #d8d8d8; font-size: 14px; color: #787878; border-radius: 20px; }
+.client .client__message { display: table; padding: 15px; border: 1px dashed #d8d8d8; font-size: 14px; color: #787878; border-radius: 20px; position: relative; }
+.client .client__message:before { content: " "; position: absolute; left: -9px; width: 9px; height: 18px; background: white url(../img/client.png) no-repeat 0 0; }
 .client .client__message a { color: #ec9214; }
 .client .client__message .client__title { font-size: 16px; font-weight: normal; color: #9bc122; margin-bottom: 1em; }
 .client .client__message .client__title a { color: #9bc122; }
 
-.switcher { list-style: none; overflow: hidden; background: #414141; margin: 0 -14px 24px -14px; }
+.switcher { list-style: none; overflow: hidden; background: #414141; margin: 20px -14px 24px -14px; }
 .switcher li { float: left; }
 .switcher a { float: left; height: 38px; line-height: 38px; padding: 0 14px; font-size: 15px; text-decoration: none; color: #d7d7d7; }
 .switcher a.is-active { color: white; background: #ef9037; }

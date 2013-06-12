@@ -246,6 +246,14 @@
 		font-size: 14px 
 		color: #787878 
 		border-radius: 20px 
+		position: relative
+		&:before
+			content: ' '
+			position: absolute
+			left: -9px 
+			width: 9px 
+			height: 18px 
+			background: #FFFFFF image-url('client.png')  no-repeat 0 0
 		a
 			color: #ec9214 
 		.client__title
@@ -260,7 +268,7 @@
 	list-style: none
 	overflow: hidden
 	background: #414141 
-	margin: 0 -14px 24px -14px 
+	margin: 20px -14px 24px -14px 
 	li
 		float: left
 	a
