@@ -1,0 +1,92 @@
+.addresses
+	@extend %block
+.switchers
+	overflow: hidden
+	background: #414141 
+	margin: 20px -14px 0px -14px 
+	.switcher
+		float: left
+		margin: 0 
+	.switcher_right
+		float: right
+		li
+			float: right
+			position: relative
+			a
+				&:before
+					content: ' '
+					height: 25px 
+					position: absolute
+					top: 6px 
+					left: 0
+					border-left: 1px solid #B2B2B2
+				&.is-active
+					&:before
+						display: none
+			&:last-child
+				a:before
+					display: none
+.adres-wrap
+	background: #fff
+	border-bottom: 1px solid #CECECE
+	margin: 0 -14px 30px -14px 
+.adres
+	padding: 20px 14px
+	overflow: hidden
+	position: relative
+	&:before
+		content: ' '
+		position: absolute
+		bottom: 0 
+		left: 14px 
+		right: 14px 
+		border-top: 1px solid #CECECE 
+	&:last-child
+		&:before
+			display: none
+	.adres__title
+		font-size: 20px 
+		color: #414141 
+		font-weight: normal
+		margin-bottom: 25px 
+	.adres__metro
+		float: right
+		width: 200px 
+		text-align: right
+		font-size: 20px 
+		color: #414141
+		white-space: nowrap
+		.adres__metrocolor
+			border: 2px solid #414141 
+			height: 16px 
+			width: 16px 
+			border-radius: 16px 
+			display: inline-block
+			background: #279757 
+			vertical-align: middle
+			margin-right: 8px 
+			position: relative
+			top: -1px 
+	.adres__adres
+		float: left
+		width: 270px 
+		margin-right: 15px 
+		font-size: 16px 
+		dl
+			margin-bottom: 1em
+			position: relative
+			line-height: 1.4 
+			dt 
+				width: 92px 
+				float: left
+				color: #787878 
+			dd
+				color: #414141 
+				overflow: hidden
+	.adres__descr
+		overflow: hidden
+		font-size: 16px 
+		color: #787878 
+		line-height: 1.4 
+		p
+			margin-bottom: 1em 
