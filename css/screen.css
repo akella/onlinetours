@@ -161,6 +161,8 @@
 
 .about-propose { position: relative; overflow: hidden; margin-top: 10px; border: 1px solid #d7d7d7; background: white; font-size: 16px; color: #787878; }
 .about-propose h3 { margin: 0 -14px; padding-left: 14px; color: #434343; line-height: 46px; border-bottom: 1px solid #d7d7d7; }
+.about-propose article { font-size: 14px; }
+.about-propose article p { margin-top: 20px; }
 
 .about-propose__list { float: left; width: 496px; list-style-type: none; font-size: 16px; color: #787878; }
 .about-propose__list .about-propose__item { border-top: 1px solid #ececec; line-height: 46px; }
