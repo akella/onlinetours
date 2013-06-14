@@ -33,8 +33,8 @@
 
 .info-razdel h2 { font-size: 26px; font-weight: normal; color: #787878; text-shadow: 1px 1px 0 white; margin-bottom: 28px; }
 
-.info-razdel, .feedback, .howtotrip, .stuff, .possible, .clients, .addresses { padding: 14px; font-family: "PF Din Text Cond Pro", sans-serif; }
-.info-razdel h3, .feedback h3, .howtotrip h3, .stuff h3, .possible h3, .clients h3, .addresses h3 { color: #787878; font-size: 20px; margin-bottom: 10px; font-weight: normal; }
+.info-razdel, .feedback, .howtotrip, .stuff, .possible, .clients, .addresses, .slider { padding: 14px; font-family: "PF Din Text Cond Pro", sans-serif; }
+.info-razdel h3, .feedback h3, .howtotrip h3, .stuff h3, .possible h3, .clients h3, .addresses h3, .slider h3 { color: #787878; font-size: 20px; margin-bottom: 10px; font-weight: normal; }
 
 .feedback { position: relative; }
 .feedback h3 { margin-bottom: 15px; }
@@ -124,3 +124,28 @@
 .adres .adres__adres dl dd { color: #414141; overflow: hidden; }
 .adres .adres__descr { overflow: hidden; font-size: 16px; color: #787878; line-height: 1.4; }
 .adres .adres__descr p { margin-bottom: 1em; }
+
+.wrapper-slider { overflow: hidden; }
+
+.slider { color: #787878; }
+.slider .slider__head { font-size: 26px; }
+.slider p { font-size: 14px; }
+.slider img { margin: 16px -14px 22px; }
+
+.slider__social { overflow: hidden; display: inline-block; width: 288px; height: 32px; padding-left: 32px; line-height: 32px; vertical-align: top; background: url(../img/icon5.png) 0 0 no-repeat; color: #b0afae; }
+.slider__social p { float: left; margin-right: 10px; }
+.slider__social li { display: inline-block; padding-top: 6px; }
+
+.slider__participant { background: url(../img/icon6.png) 0 0 no-repeat; }
+
+.vk, .f, .twitter, .google, .linkedin { display: block; width: 16px; height: 17px; }
+
+.vk { background: url(../img/vk.png) no-repeat; }
+
+.f { background: url(../img/f.png) no-repeat; }
+
+.twitter { background: url(../img/twitter.png) no-repeat; }
+
+.google { background: url(../img/google.png) no-repeat; }
+
+.linkedin { background: url(../img/linkedin.png) no-repeat; }
