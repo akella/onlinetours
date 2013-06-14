@@ -1,6 +1,7 @@
 .wrapper-slider
 	overflow: hidden
 .slider
+	position: relative
 	@extend %block
 	color: #787878
 	.slider__head
@@ -8,7 +9,44 @@
 	p
 		font-size: 14px
 	img
-		margin: 16px -14px	22px
+		margin: 16px -14px	0
+.slider__info
+	overflow: hidden
+	position: absolute
+	right: 0
+	bottom: 42px
+	width: 525px
+	padding: 14px
+	background: #ec9214
+	color: #fff
+	list-style-type: none
+	li 
+		display: inline-block
+		vertical-align: top
+	.slider__tour-place
+		width: 96px
+		padding-left: 32px
+		background: url(../img/icon10.png) 15% 15% no-repeat
+	.slider__days-left
+		width: 112px
+	.slider__tour-number
+		width: 128px
+	.slider__tour-price
+		width: 112px
+		padding-left: 32px
+		line-height: 36px
+		font-size: 28px
+		background: url(../img/icon11.png) 4% 38% no-repeat
+		span
+			position: relative
+			right: -5px
+			font-size: 10px
+			border-top: 1px solid #fff
+			i	
+				position: absolute
+				top: -26px
+				right: 0		
+
 .slider__social
 	overflow: hidden
 	display: inline-block
@@ -43,6 +81,61 @@
 	background: url(../img/linkedin.png) no-repeat
 
 
+.about-propose
+	position: relative
+	overflow: hidden
+	@extend %block
+	margin-top: 10px
+	border: 1px solid #d7d7d7
+	background: #fff
+	font-size: 16px	
+	color: #787878
+	h3
+		margin: 0 -14px
+		padding-left: 14px
+		color: #434343
+		line-height: 46px
+		border-bottom: 1px solid #d7d7d7
+.about-propose__list
+	float: left
+	width: 496px
+	list-style-type: none
+	font-size: 16px	
+	color: #787878
+	.about-propose__item 
+		border-top: 1px solid #ececec
+		line-height: 46px
+		span
+			color: #000
+		&:first-child
+			border-top: none
+.tour-components
+	list-style-type: none
+	li 
+		padding-left: 29px
+		line-height: 30px
+		a
+			color: inherit
+		i
+			border-bottom: 1px dashed #787878
+			cursor: pointer
+			font-style: normal
+	.tour-components__fly
+		background: url(../img/icon8.png) 0 50% no-repeat
+	.tour-components__living
+		background: url(../img/icon7.png) 0 50% no-repeat
+	.tour-components__other
+		background: url(../img/icon9.png) 0 50% no-repeat				
+.about-propose__price
+	float: left
+	width: 180px
+	padding: 14px
+	margin-left: 18px
+.about-propose__more
+	position: absolute
+	right: 16px
+	bottom: 16px
+	color: #99c047
 
 
 

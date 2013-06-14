@@ -33,8 +33,8 @@
 
 .info-razdel h2 { font-size: 26px; font-weight: normal; color: #787878; text-shadow: 1px 1px 0 white; margin-bottom: 28px; }
 
-.info-razdel, .feedback, .howtotrip, .stuff, .possible, .clients, .addresses, .slider { padding: 14px; font-family: "PF Din Text Cond Pro", sans-serif; }
-.info-razdel h3, .feedback h3, .howtotrip h3, .stuff h3, .possible h3, .clients h3, .addresses h3, .slider h3 { color: #787878; font-size: 20px; margin-bottom: 10px; font-weight: normal; }
+.info-razdel, .feedback, .howtotrip, .stuff, .possible, .clients, .addresses, .slider, .about-propose { padding: 14px; font-family: "PF Din Text Cond Pro", sans-serif; }
+.info-razdel h3, .feedback h3, .howtotrip h3, .stuff h3, .possible h3, .clients h3, .addresses h3, .slider h3, .about-propose h3 { color: #787878; font-size: 20px; margin-bottom: 10px; font-weight: normal; }
 
 .feedback { position: relative; }
 .feedback h3 { margin-bottom: 15px; }
@@ -127,10 +127,19 @@
 
 .wrapper-slider { overflow: hidden; }
 
-.slider { color: #787878; }
+.slider { position: relative; color: #787878; }
 .slider .slider__head { font-size: 26px; }
 .slider p { font-size: 14px; }
-.slider img { margin: 16px -14px 22px; }
+.slider img { margin: 16px -14px 0; }
+
+.slider__info { overflow: hidden; position: absolute; right: 0; bottom: 42px; width: 525px; padding: 14px; background: #ec9214; color: white; list-style-type: none; }
+.slider__info li { display: inline-block; vertical-align: top; }
+.slider__info .slider__tour-place { width: 96px; padding-left: 32px; background: url(../img/icon10.png) 15% 15% no-repeat; }
+.slider__info .slider__days-left { width: 112px; }
+.slider__info .slider__tour-number { width: 128px; }
+.slider__info .slider__tour-price { width: 112px; padding-left: 32px; line-height: 36px; font-size: 28px; background: url(../img/icon11.png) 4% 38% no-repeat; }
+.slider__info .slider__tour-price span { position: relative; right: -5px; font-size: 10px; border-top: 1px solid white; }
+.slider__info .slider__tour-price span i { position: absolute; top: -26px; right: 0; }
 
 .slider__social { overflow: hidden; display: inline-block; width: 288px; height: 32px; padding-left: 32px; line-height: 32px; vertical-align: top; background: url(../img/icon5.png) 0 0 no-repeat; color: #b0afae; }
 .slider__social p { float: left; margin-right: 10px; }
@@ -149,3 +158,23 @@
 .google { background: url(../img/google.png) no-repeat; }
 
 .linkedin { background: url(../img/linkedin.png) no-repeat; }
+
+.about-propose { position: relative; overflow: hidden; margin-top: 10px; border: 1px solid #d7d7d7; background: white; font-size: 16px; color: #787878; }
+.about-propose h3 { margin: 0 -14px; padding-left: 14px; color: #434343; line-height: 46px; border-bottom: 1px solid #d7d7d7; }
+
+.about-propose__list { float: left; width: 496px; list-style-type: none; font-size: 16px; color: #787878; }
+.about-propose__list .about-propose__item { border-top: 1px solid #ececec; line-height: 46px; }
+.about-propose__list .about-propose__item span { color: black; }
+.about-propose__list .about-propose__item:first-child { border-top: none; }
+
+.tour-components { list-style-type: none; }
+.tour-components li { padding-left: 29px; line-height: 30px; }
+.tour-components li a { color: inherit; }
+.tour-components li i { border-bottom: 1px dashed #787878; cursor: pointer; font-style: normal; }
+.tour-components .tour-components__fly { background: url(../img/icon8.png) 0 50% no-repeat; }
+.tour-components .tour-components__living { background: url(../img/icon7.png) 0 50% no-repeat; }
+.tour-components .tour-components__other { background: url(../img/icon9.png) 0 50% no-repeat; }
+
+.about-propose__price { float: left; width: 180px; padding: 14px; margin-left: 18px; }
+
+.about-propose__more { position: absolute; right: 16px; bottom: 16px; color: #99c047; }
