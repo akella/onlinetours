@@ -142,4 +142,93 @@
 	color: #99c047
 
 
+.options
+	position: relative
+	@extend %block
+	width: 242px
+	border: 1px solid #cdcdcd
+	background: url(../img/options-bg.png)
+	.wrapper-option_add
+		text-align: right
+	.option_add
+		border: none
+		background: transparent
+		color: #9bc122
+		border-bottom: 1px dashed #9bc122
+		cursor: pointer
+.options__item
+	position: relative
+	padding: 0 14px 0 10px
+	height: 30px
+	line-height: 30px
+	margin-bottom: 16px
+	font-size: 16px
+	color: #787878
+	border: 1px solid #cdcdcd
+	background: #fff
+	span
+		color: #434343
+	i
+		position: absolute
+		right: 8px
+		top: 50%
+		width: 16px
+		height: 16px
+		margin-top: -8px
+		cursor: pointer
+		background: url(../img/arr-down.png) 50% 50% no-repeat
+	.options__cancel
+		content: ""
+		position: absolute
+		top: -1px
+		right: -32px
+		width: 32px
+		height: 32px
+		background: #cdcdcd url(../img/close.png) 50% 50% no-repeat
+		cursor: pointer
+.options__price
+	overflow: hidden
+	margin: 10px 0 20px		
+.options__text, .options__figure
+	width: 50%
+	float: left
+	p
+		font-size: 14px
+		color: #787878
+		&:first-child
+			margin-top: 10px
+			font-size: 28px
+			color: #434343
+.options__figure
+	text-align: right
+	p:first-child
+		font-size: 27px
+		color: #ec9214
+		span
+			font-size: 14px
+.wrapper-order-online
+	text-align: right			
+.order-online
+	height: 40px
+	line-height 40px
+	padding: 0 16px 0 32px
+	border: none
+	background: #ec9214 url(../img/arr-right.png) 5% 50% no-repeat
+	font-size: 20px
+	cursor: pointer
+	color: #fff			
+.options__want-same
+	position: absolute
+	left: -1px
+	bottom: -61px
+	width: 208px
+	height: 60px
+	line-height: 60px
+	padding-left: 64px
+	background: #9bc122 url(../img/star.png) 8% 48% no-repeat
+	font-size: 18px
+	text-decoration: none
+	color: #fff 
+
+
 

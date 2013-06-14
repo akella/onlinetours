@@ -33,8 +33,8 @@
 
 .info-razdel h2 { font-size: 26px; font-weight: normal; color: #787878; text-shadow: 1px 1px 0 white; margin-bottom: 28px; }
 
-.info-razdel, .feedback, .howtotrip, .stuff, .possible, .clients, .addresses, .slider, .about-propose { padding: 14px; font-family: "PF Din Text Cond Pro", sans-serif; }
-.info-razdel h3, .feedback h3, .howtotrip h3, .stuff h3, .possible h3, .clients h3, .addresses h3, .slider h3, .about-propose h3 { color: #787878; font-size: 20px; margin-bottom: 10px; font-weight: normal; }
+.info-razdel, .feedback, .howtotrip, .stuff, .possible, .clients, .addresses, .slider, .about-propose, .options { padding: 14px; font-family: "PF Din Text Cond Pro", sans-serif; }
+.info-razdel h3, .feedback h3, .howtotrip h3, .stuff h3, .possible h3, .clients h3, .addresses h3, .slider h3, .about-propose h3, .options h3 { color: #787878; font-size: 20px; margin-bottom: 10px; font-weight: normal; }
 
 .feedback { position: relative; }
 .feedback h3 { margin-bottom: 15px; }
@@ -180,3 +180,28 @@
 .about-propose__price { float: left; width: 180px; padding: 14px; margin-left: 18px; }
 
 .about-propose__more { position: absolute; right: 16px; bottom: 16px; color: #99c047; }
+
+.options { position: relative; width: 242px; border: 1px solid #cdcdcd; background: url(../img/options-bg.png); }
+.options .wrapper-option_add { text-align: right; }
+.options .option_add { border: none; background: transparent; color: #9bc122; border-bottom: 1px dashed #9bc122; cursor: pointer; }
+
+.options__item { position: relative; padding: 0 14px 0 10px; height: 30px; line-height: 30px; margin-bottom: 16px; font-size: 16px; color: #787878; border: 1px solid #cdcdcd; background: white; }
+.options__item span { color: #434343; }
+.options__item i { position: absolute; right: 8px; top: 50%; width: 16px; height: 16px; margin-top: -8px; cursor: pointer; background: url(../img/arr-down.png) 50% 50% no-repeat; }
+.options__item .options__cancel { content: ""; position: absolute; top: -1px; right: -32px; width: 32px; height: 32px; background: #cdcdcd url(../img/close.png) 50% 50% no-repeat; cursor: pointer; }
+
+.options__price { overflow: hidden; margin: 10px 0 20px; }
+
+.options__text, .options__figure { width: 50%; float: left; }
+.options__text p, .options__figure p { font-size: 14px; color: #787878; }
+.options__text p:first-child, .options__figure p:first-child { margin-top: 10px; font-size: 28px; color: #434343; }
+
+.options__figure { text-align: right; }
+.options__figure p:first-child { font-size: 27px; color: #ec9214; }
+.options__figure p:first-child span { font-size: 14px; }
+
+.wrapper-order-online { text-align: right; }
+
+.order-online { height: 40px; padding: 0 16px 0 32px; border: none; background: #ec9214 url(../img/arr-right.png) 5% 50% no-repeat; font-size: 20px; cursor: pointer; color: white; }
+
+.options__want-same { position: absolute; left: -1px; bottom: -61px; width: 208px; height: 60px; line-height: 60px; padding-left: 64px; background: #9bc122 url(../img/star.png) 8% 48% no-repeat; font-size: 18px; text-decoration: none; color: white; }
