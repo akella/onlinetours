@@ -159,7 +159,7 @@
 
 .linkedin { background: url(../img/linkedin.png) no-repeat; }
 
-.about-propose { position: relative; overflow: hidden; margin-top: 10px; border: 1px solid #d7d7d7; background: white; font-size: 16px; color: #787878; }
+.about-propose { position: relative; overflow: hidden; margin-top: 20px; border: 1px solid #d7d7d7; background: white; font-size: 16px; color: #787878; }
 .about-propose h3 { margin: 0 -14px; padding-left: 14px; color: #434343; line-height: 46px; border-bottom: 1px solid #d7d7d7; }
 .about-propose article { font-size: 14px; }
 .about-propose article p { margin-top: 20px; }
@@ -200,9 +200,9 @@
 .options__figure p:first-child { font-size: 27px; color: #ec9214; }
 .options__figure p:first-child span { font-size: 14px; }
 
-.wrapper-order-online { text-align: right; }
+.wrapper-order-btn { text-align: right; }
 
-.order-online { height: 40px; padding: 0 16px 0 32px; border: none; background: #ec9214 url(../img/arr-right.png) 5% 50% no-repeat; font-size: 20px; cursor: pointer; color: white; }
+.order-btn { height: 40px; padding: 0 16px 0 32px; border: none; background: #ec9214 url(../img/arr-right.png) 5% 50% no-repeat; font-size: 20px; cursor: pointer; color: white; }
 
 .options__want-same { position: absolute; left: -1px; bottom: -61px; width: 208px; height: 60px; line-height: 60px; padding-left: 64px; background: #9bc122 url(../img/star.png) 8% 48% no-repeat; font-size: 18px; text-decoration: none; color: white; }
 
@@ -218,3 +218,17 @@
 .options-popup .options-popup__submit { text-align: right; }
 .options-popup input[type=submit] { height: 40px; line-height: 40px; padding: 0 16px 0 40px; margin-top: 14px; border: none; font-size: 20px; color: white; background: #ec9214 url(../img/arr-right.png) 18px 50% no-repeat; cursor: pointer; }
 .options-popup .options-popup__popup { position: absolute; left: 16px; bottom: -10px; width: 0; height: 0; border-style: solid; border-width: 10px 16px 0 16px; border-color: #e6e6e6 transparent transparent transparent; }
+
+.faq { padding: 14px 0; }
+
+.order-btn_faq { font-size: 14px; }
+
+.faq__nav { position: absolute; right: 15px; top: 75px; text-align: right; }
+.faq__nav .faq__sep { height: 28px; border-right: 1px solid #d8d8d8; box-shadow: 1px 0 0 white; display: inline-block; vertical-align: middle; }
+.faq__nav .faq__prev, .faq__nav .faq__next { background: url(../img/arr-left.png) no-repeat 0 0; width: 20px; height: 17px; display: inline-block; vertical-align: middle; margin: 0 4px; cursor: pointer; }
+.faq__nav .faq__next { background: url(../img/arr-right.png) no-repeat 0 0; }
+
+.faq__question, .faq__answer { margin: 20px 0; }
+.faq__question span:first-child, .faq__answer span:first-child { color: black; }
+
+.faq__answer span:first-child { color: #ec9214; }

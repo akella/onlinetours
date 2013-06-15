@@ -298,3 +298,34 @@
 2013-06-15 15:40:29 overwrite css/screen.css 
 2013-06-15 15:41:16 overwrite css/screen.css 
 2013-06-15 15:41:27 overwrite css/screen.css 
+2013-06-15 15:46:12 overwrite css/screen.css 
+2013-06-15 15:51:02 overwrite css/screen.css 
+2013-06-15 15:51:07 overwrite css/screen.css 
+2013-06-15 15:54:15 identical css/screen.css 
+2013-06-15 15:54:20 identical css/screen.css 
+2013-06-15 15:56:17 identical css/screen.css 
+2013-06-15 15:56:36     error sass/screen.sass (Line 307 of sass/_slider.sass: Invalid CSS after "absolute": expected expression (e.g. 1px, bold), was ";")
+2013-06-15 15:56:36 overwrite css/screen.css 
+2013-06-15 15:57:18     error sass/screen.sass (Line 307 of sass/_slider.sass: Invalid CSS after "absolute": expected expression (e.g. 1px, bold), was ";")
+2013-06-15 15:57:18 identical css/screen.css 
+2013-06-15 15:57:48     error sass/screen.sass (Line 307 of sass/_slider.sass: Invalid CSS after "absolute": expected expression (e.g. 1px, bold), was ";")
+2013-06-15 15:57:48 identical css/screen.css 
+2013-06-15 15:58:06     error sass/screen.sass (Line 307 of sass/_slider.sass: Invalid CSS after "absolute": expected expression (e.g. 1px, bold), was ";")
+2013-06-15 15:58:06 identical css/screen.css 
+2013-06-15 15:58:21     error sass/screen.sass (Line 307 of sass/_slider.sass: Invalid CSS after "absolute": expected expression (e.g. 1px, bold), was ";")
+2013-06-15 15:58:21 identical css/screen.css 
+2013-06-15 15:58:47 overwrite css/screen.css 
+2013-06-15 16:01:01 overwrite css/screen.css 
+2013-06-15 16:01:43 overwrite css/screen.css 
+2013-06-15 16:02:26 identical css/screen.css 
+2013-06-15 16:02:55 overwrite css/screen.css 
+2013-06-15 16:03:27 overwrite css/screen.css 
+2013-06-15 16:03:33 overwrite css/screen.css 
+2013-06-15 16:04:37 overwrite css/screen.css 
+2013-06-15 16:06:12     error sass/screen.sass (Line 309 of sass/_slider.sass: The line was indented 2 levels deeper than the previous line.)
+2013-06-15 16:06:12 overwrite css/screen.css 
+2013-06-15 16:06:22 overwrite css/screen.css 
+2013-06-15 16:07:43 overwrite css/screen.css 
+2013-06-15 16:08:22 overwrite css/screen.css 
+2013-06-15 16:09:22 overwrite css/screen.css 
+2013-06-15 16:09:45 overwrite css/screen.css 
