@@ -230,5 +230,69 @@
 	text-decoration: none
 	color: #fff 
 
-
+.options-popup
+	display: none
+	position: absolute
+	top: -1px
+	left: -1px
+	width: 242px
+	@extend %block
+	border: 1px solid #cdcdcd
+	background: url(../img/options-bg.png)
+	@include box-shadow(0 5px 10px rgba(0,0,0,.1))
+	h3
+		display: inline-block
+		border-bottom: 1px dashed #cdcdcd
+		cursor: pointer
+	p	
+		font-size: 14px
+		color: #787878
+	.options-popup__close
+		position: absolute
+		top: 21px
+		right: 14px
+		width: 11px
+		height: 10px
+		border: none
+		background: url(../img/close2.png) no-repeat
+		cursor: pointer
+	textarea
+		width: 230px
+		max-width: 230px
+		height: 108px
+		max-height: 108px
+		margin-top: 14px
+		padding: 5px
+		font-size: 18px
+		color: #b1b1b1
+		outline: none
+	input[type=text]
+		width: 204px
+		padding: 0 5px 0 31px
+		line-height: 28px
+		margin-top: 14px
+		font-size: 18px
+		color: #b1b1b1
+		outline: none
+	.options-popup__submit
+		text-align: right
+	input[type=submit]
+		height: 40px
+		line-height: 40px
+		padding: 0 16px 0 40px
+		margin-top: 14px
+		border: none
+		font-size: 20px
+		color: #fff
+		background: #ec9214 url(../img/arr-right.png) 18px 50% no-repeat
+		cursor: pointer
+	.options-popup__popup
+		position: absolute
+		left: 16px
+		bottom: -10px
+		width: 0
+		height: 0
+		border-style: solid
+		border-width: 10px 16px 0 16px
+		border-color: #e6e6e6 transparent transparent transparent
 

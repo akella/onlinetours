@@ -6,7 +6,8 @@
 	<title>Template</title>
 	<meta name="viewport" content="width=device-width"/>
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
-
+	<script src="js/jquery.tools.min.js"></script>
+    <script src="js/common.js"></script>
 </head>
 <body>
 	
@@ -121,6 +122,21 @@
 			<button class="order-online">Купить онлайн</button>
 		</div>
 		<a class="options__want-same" href="#">Хочу такой же тур, но...</a>
+		<div class="options-popup">
+			<button class="options-popup__close"></button>
+			<h3>Хочу такой же тур, но...</h3>
+			<p>Напишите, что бы вы хотели поменять, и наш менеджер предложит вам подходящие варианты:</p>
+			<form>
+				<textarea></textarea>
+				<input type="text" placeholder="Ваше имя">
+				<input type="text" placeholder="Email">
+				<input type="text" placeholder="+ (  )  -  -">
+				<div class="options-popup__submit">
+					<input type="submit" value="Отправить заявку">
+				</div>
+			</form>
+			<div class="options-popup__popup"></div>
+		</div>
 	</div>
 
 </div>
