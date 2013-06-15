@@ -394,4 +394,75 @@
 		color: #fff
 		background: #9bc122
 		cursor: pointer
-
+.hotels
+	margin: 16px 0
+.hotels__title
+	overflow: hidden
+	padding: 16px 0
+	h3
+		float: left
+		font-size: 20px
+		font-weight: normal
+		color: #434343
+	a	
+		float: right
+		margin-right: 16px
+		font-size: 14px
+		color: #9bc122
+.hotels__content
+	overflow: hidden
+	border-left: 1px solid #9bc122
+.hotels__tabs
+	float: left
+	width: 240px
+	padding: 18px 0
+.hotels_item
+	@extend %block
+	font-size: 16px
+	border-top: 1px solid #d7d7d7
+	color: #787878
+	cursor: pointer
+	p
+		margin-bottom: 16px
+	.hotels__rating
+		font-size: 16px
+		color: #787878
+		padding-left: 21px
+		background: url(../img/like-green.png) 5px 7px no-repeat 
+		span
+			font-size: 20px
+			color: #9bc122
+.hotels_item.is-active
+	position: absolute
+	width: 212px
+	height: 79px
+	border-top: 1px solid #9bc122
+	border-bottom: 1px solid #9bc122
+	border-right: 1px solid #fff
+	background: #fff		
+.hotels__info
+	float: left
+	width: 481px
+	height: 755px
+	@extend %block
+	border: 1px solid #9bc122
+	background: #fff
+.gallary-hotel	
+	margin-bottom: 35px
+.gallary-hotel__nav
+	list-style-type: none
+	li
+		display: inline-block
+		width: 79px
+		height: 64px
+		margin-left: -3px
+		background: #ec9214
+		cursor: pointer
+		&:first-child
+			margin-left: 0	
+	.gallary-hotel__more
+		padding: 10px
+		width: 59px
+		height: 44px
+		font-size: 13px
+		color: #fff		
