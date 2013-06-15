@@ -282,3 +282,19 @@
 2013-06-15 14:20:55 overwrite css/screen.css 
 2013-06-15 14:21:31 overwrite css/screen.css 
 2013-06-15 14:25:44 overwrite css/screen.css 
+2013-06-15 15:32:00 overwrite css/screen.css 
+2013-06-15 15:36:09 overwrite css/screen.css 
+2013-06-15 15:37:22 overwrite css/screen.css 
+2013-06-15 15:37:42 overwrite css/screen.css 
+2013-06-15 15:38:11     error sass/screen.sass (Line 266 of sass/_slider.sass: Colors must have either three or six digits: '#d7d7d')
+2013-06-15 15:38:12 overwrite css/screen.css 
+2013-06-15 15:38:41     error sass/screen.sass (Line 266 of sass/_slider.sass: Colors must have either three or six digits: '#d7d7d')
+2013-06-15 15:38:41 identical css/screen.css 
+2013-06-15 15:39:13     error sass/screen.sass (Line 266 of sass/_slider.sass: Colors must have either three or six digits: '#d7d7d')
+2013-06-15 15:39:13 identical css/screen.css 
+2013-06-15 15:39:41 overwrite css/screen.css 
+2013-06-15 15:40:03 overwrite css/screen.css 
+2013-06-15 15:40:13 overwrite css/screen.css 
+2013-06-15 15:40:29 overwrite css/screen.css 
+2013-06-15 15:41:16 overwrite css/screen.css 
+2013-06-15 15:41:27 overwrite css/screen.css 
