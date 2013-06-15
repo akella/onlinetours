@@ -33,8 +33,8 @@
 
 .info-razdel h2 { font-size: 26px; font-weight: normal; color: #787878; text-shadow: 1px 1px 0 white; margin-bottom: 28px; }
 
-.info-razdel, .feedback, .howtotrip, .stuff, .possible, .clients, .addresses, .slider, .about-propose, .options, .options-popup { padding: 14px; font-family: "PF Din Text Cond Pro", sans-serif; }
-.info-razdel h3, .feedback h3, .howtotrip h3, .stuff h3, .possible h3, .clients h3, .addresses h3, .slider h3, .about-propose h3, .options h3, .options-popup h3 { color: #787878; font-size: 20px; margin-bottom: 10px; font-weight: normal; }
+.info-razdel, .feedback, .howtotrip, .stuff, .possible, .clients, .addresses, .slider, .about-propose, .options, .options-popup, .faq-popup { padding: 14px; font-family: "PF Din Text Cond Pro", sans-serif; }
+.info-razdel h3, .feedback h3, .howtotrip h3, .stuff h3, .possible h3, .clients h3, .addresses h3, .slider h3, .about-propose h3, .options h3, .options-popup h3, .faq-popup h3 { color: #787878; font-size: 20px; margin-bottom: 10px; font-weight: normal; }
 
 .feedback { position: relative; }
 .feedback h3 { margin-bottom: 15px; }
@@ -212,12 +212,18 @@
 .options-popup .options-popup__close { position: absolute; top: 21px; right: 14px; width: 11px; height: 10px; border: none; background: url(../img/close2.png) no-repeat; cursor: pointer; }
 .options-popup textarea { width: 230px; max-width: 230px; height: 108px; max-height: 108px; margin-top: 14px; padding: 5px; border: 1px solid #d7d7d7; font-size: 18px; color: #b1b1b1; outline: none; }
 .options-popup input[type=text] { width: 204px; padding: 0 5px 0 31px; line-height: 28px; margin-top: 14px; font-size: 18px; color: #b1b1b1; border: 1px solid #d7d7d7; outline: none; }
-.options-popup .options-popup__name { background: white url(../img/name.png) 6px 50% no-repeat; }
-.options-popup .options-popup__email { background: white url(../img/email.png) 6px 50% no-repeat; }
-.options-popup .options-popup__phone { background: white url(../img/phone.png) 6px 50% no-repeat; }
-.options-popup .options-popup__submit { text-align: right; }
-.options-popup input[type=submit] { height: 40px; line-height: 40px; padding: 0 16px 0 40px; margin-top: 14px; border: none; font-size: 20px; color: white; background: #ec9214 url(../img/arr-right.png) 18px 50% no-repeat; cursor: pointer; }
-.options-popup .options-popup__popup { position: absolute; left: 16px; bottom: -10px; width: 0; height: 0; border-style: solid; border-width: 10px 16px 0 16px; border-color: #e6e6e6 transparent transparent transparent; }
+
+.options-popup__submit { text-align: right; }
+.options-popup__submit input[type=submit] { height: 40px; line-height: 40px; padding: 0 16px 0 40px; margin-top: 14px; border: none; font-size: 20px; color: white; background: #ec9214 url(../img/arr-right.png) 18px 50% no-repeat; cursor: pointer; }
+.options-popup__submit .options-popup__popup { position: absolute; left: 16px; bottom: -10px; width: 0; height: 0; border-style: solid; border-width: 10px 16px 0 16px; border-color: #e6e6e6 transparent transparent transparent; }
+
+.options-popup__name { background: white url(../img/name.png) 6px 50% no-repeat; }
+
+.options-popup__email { background: white url(../img/email.png) 6px 50% no-repeat; }
+
+.options-popup__phone { background: white url(../img/phone.png) 6px 50% no-repeat; }
+
+.about-propose_faq { overflow: visible; }
 
 .faq { padding: 14px 0; }
 
@@ -232,3 +238,15 @@
 .faq__question span:first-child, .faq__answer span:first-child { color: black; }
 
 .faq__answer span:first-child { color: #ec9214; }
+
+.faq-popup { display: none; position: absolute; top: 75px; left: 14px; width: 628px; border: 1px solid #cdcdcd; background: url(../img/options-bg.png); }
+.faq-popup h3 { font-size: 18px; }
+.faq-popup form { overflow: hidden; }
+.faq-popup textarea { float: left; width: 358px; max-width: 358px; height: 63px; max-height: 63px; margin: 14px 16px 0 0; padding: 5px; border: 1px solid #d7d7d7; font-size: 18px; color: #b1b1b1; outline: none; }
+.faq-popup .faq-popup__input { float: left; width: 242px; }
+.faq-popup .faq-popup__input input[type=text] { width: 204px; padding: 0 5px 0 31px; line-height: 28px; margin-top: 14px; font-size: 18px; color: #b1b1b1; border: 1px solid #d7d7d7; outline: none; }
+
+.faq-popup__close { position: absolute; top: 21px; right: 14px; width: 11px; height: 10px; border: none; background: url(../img/close2.png) no-repeat; cursor: pointer; }
+
+.faq-popup__submit { text-align: right; }
+.faq-popup__submit input { height: 32px; line-height: 32px; padding: 0 16px; margin-top: 16px; border: none; font-size: 14px; color: white; background: #9bc122; cursor: pointer; }

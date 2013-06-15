@@ -276,14 +276,8 @@
 		color: #b1b1b1
 		border: 1px solid #d7d7d7
 		outline: none
-	.options-popup__name
-		background: #fff url(../img/name.png) 6px 50% no-repeat
-	.options-popup__email
-		background: #fff url(../img/email.png) 6px 50% no-repeat
-	.options-popup__phone
-		background: #fff url(../img/phone.png) 6px 50% no-repeat
-	.options-popup__submit
-		text-align: right
+.options-popup__submit
+	text-align: right
 	input[type=submit]
 		height: 40px
 		line-height: 40px
@@ -303,6 +297,14 @@
 		border-style: solid
 		border-width: 10px 16px 0 16px
 		border-color: #e6e6e6 transparent transparent transparent
+.options-popup__name
+	background: #fff url(../img/name.png) 6px 50% no-repeat
+.options-popup__email
+	background: #fff url(../img/email.png) 6px 50% no-repeat
+.options-popup__phone
+	background: #fff url(../img/phone.png) 6px 50% no-repeat		
+.about-propose_faq
+	overflow: visible
 .faq
 	padding: 14px 0
 .order-btn_faq
@@ -334,3 +336,62 @@
 		color: #000
 .faq__answer span:first-child
 	color: #ec9214
+.faq-popup
+	display: none
+	position: absolute
+	top: 75px
+	left: 14px
+	width: 628px
+	@extend %block
+	border: 1px solid #cdcdcd
+	background: url(../img/options-bg.png)
+	h3
+		font-size: 18px
+	form
+		overflow: hidden	
+	textarea
+		float: left
+		width: 358px
+		max-width: 358px
+		height: 63px
+		max-height: 63px
+		margin: 14px 16px 0 0
+		padding: 5px
+		border: 1px solid #d7d7d7
+		font-size: 18px
+		color: #b1b1b1
+		outline: none
+	.faq-popup__input
+		float: left
+		width: 242px
+		input[type=text]
+			width: 204px
+			padding: 0 5px 0 31px
+			line-height: 28px
+			margin-top: 14px
+			font-size: 18px
+			color: #b1b1b1
+			border: 1px solid #d7d7d7
+			outline: none	
+.faq-popup__close
+	position: absolute
+	top: 21px
+	right: 14px
+	width: 11px
+	height: 10px
+	border: none
+	background: url(../img/close2.png) no-repeat
+	cursor: pointer
+.faq-popup__submit
+	text-align: right
+	input
+		height: 32px
+		line-height: 32px
+		padding: 0 16px
+		margin-top: 16px
+		border: none
+		font-size: 14px
+		color: #fff
+		background: #9bc122
+		cursor: pointer
+
