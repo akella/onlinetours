@@ -526,3 +526,62 @@
 2013-06-17 15:21:22 overwrite css/screen.css 
 2013-06-17 15:24:37 identical css/screen.css 
 2013-06-17 15:28:10 overwrite css/screen.css 
+2013-06-17 15:41:15 identical css/screen.css 
+2013-06-17 15:52:43 overwrite css/screen.css 
+2013-06-17 15:52:48 overwrite css/screen.css 
+2013-06-17 15:54:25 overwrite css/screen.css 
+2013-06-17 15:54:53 overwrite css/screen.css 
+2013-06-17 15:56:16 overwrite css/screen.css 
+2013-06-17 15:56:25 overwrite css/screen.css 
+2013-06-17 15:57:33 overwrite css/screen.css 
+2013-06-17 15:58:21     error sass/screen.sass (Line 31 of sass/_adresses.sass: The line was indented 2 levels deeper than the previous line.)
+2013-06-17 15:58:21 overwrite css/screen.css 
+2013-06-17 15:58:43 overwrite css/screen.css 
+2013-06-17 15:59:29     error sass/screen.sass (Line 30 of sass/_adresses.sass: Illegal nesting: Only properties may be nested beneath properties.)
+2013-06-17 15:59:29 overwrite css/screen.css 
+2013-06-17 15:59:46     error sass/screen.sass (Line 30 of sass/_adresses.sass: Illegal nesting: Only properties may be nested beneath properties.)
+2013-06-17 15:59:46 identical css/screen.css 
+2013-06-17 16:00:07 overwrite css/screen.css 
+2013-06-17 16:04:44 overwrite css/screen.css 
+2013-06-17 16:04:47 overwrite css/screen.css 
+2013-06-17 16:10:24 overwrite css/screen.css 
+2013-06-17 16:10:58 overwrite css/screen.css 
+2013-06-17 16:13:03 overwrite css/screen.css 
+2013-06-17 16:13:33 overwrite css/screen.css 
+2013-06-17 16:13:45 overwrite css/screen.css 
+2013-06-17 16:15:38 overwrite css/screen.css 
+2013-06-17 16:16:13 overwrite css/screen.css 
+2013-06-17 16:17:14 overwrite css/screen.css 
+2013-06-17 16:18:56 overwrite css/screen.css 
+2013-06-17 16:22:18     error sass/screen.sass (Line 17 of sass/_41.sass: Invalid CSS after "image-url(": expected ")", was "../img/credit-c...")
+2013-06-17 16:22:18 overwrite css/screen.css 
+2013-06-17 16:22:59     error sass/screen.sass (Line 17 of sass/_41.sass: Invalid CSS after "...url(credit-card": expected ")", was ".png) 0 0 no-re...")
+2013-06-17 16:22:59 overwrite css/screen.css 
+2013-06-17 16:23:42     error sass/screen.sass (Line 17 of sass/_41.sass: Invalid CSS after "...url(credit-card": expected ")", was ".png) no-repeat...")
+2013-06-17 16:23:42 overwrite css/screen.css 
+2013-06-17 16:24:23     error sass/screen.sass (Line 17 of sass/_41.sass: Invalid CSS after "...url(credit-card": expected ")", was ".png) no-repeat...")
+2013-06-17 16:24:23 identical css/screen.css 
+2013-06-17 16:27:35 overwrite css/screen.css 
+2013-06-17 16:28:22 overwrite css/screen.css 
+2013-06-17 16:29:04 overwrite css/screen.css 
+2013-06-17 16:29:43     error sass/screen.sass (Line 30 of sass/_41.sass: Invalid CSS after "image-url(blabla": expected ")", was ".png) no-repeat...")
+2013-06-17 16:29:43 overwrite css/screen.css 
+2013-06-17 16:29:51 overwrite css/screen.css 
+2013-06-17 16:29:55 overwrite css/screen.css 
+2013-06-17 16:33:39 overwrite css/screen.css 
+2013-06-17 16:34:14 overwrite css/screen.css 
+2013-06-17 16:34:51 overwrite css/screen.css 
+2013-06-17 16:35:06 overwrite css/screen.css 
+2013-06-17 16:35:41 overwrite css/screen.css 
+2013-06-17 16:36:02 overwrite css/screen.css 
+2013-06-17 16:36:28 overwrite css/screen.css 
+2013-06-17 16:37:29 overwrite css/screen.css 
+2013-06-17 16:37:53 overwrite css/screen.css 
+2013-06-17 16:39:03 overwrite css/screen.css 
+2013-06-17 16:39:28 overwrite css/screen.css 
+2013-06-17 16:41:16 overwrite css/screen.css 
+2013-06-17 16:41:29 overwrite css/screen.css 
+2013-06-17 16:42:01 overwrite css/screen.css 
+2013-06-17 16:42:24 overwrite css/screen.css 
+2013-06-17 16:42:35 overwrite css/screen.css 
+2013-06-17 16:42:57 overwrite css/screen.css 

@@ -6,12 +6,8 @@
 	margin: 20px -14px 0px -14px 
 	.switcher
 		float: left
-		margin: 0 
-	.switcher_right
-		float: right
+		margin: 0
 		li
-			float: right
-			position: relative
 			a
 				&:before
 					content: ' '
@@ -23,6 +19,14 @@
 				&.is-active
 					&:before
 						display: none
+			&:first-child
+				a:before
+					display: none 
+	.switcher_right
+		float: right
+		li
+			float: right
+			position: relative
 			&:last-child
 				a:before
 					display: none

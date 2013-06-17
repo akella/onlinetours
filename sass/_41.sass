@@ -1,0 +1,39 @@
+.payment
+	@extend %block
+	font-size: 16px
+	color: #787878
+	h1
+		display: block
+		height: 59px
+		line-height: 59px
+		font-size: 26px
+		color: #787878
+.content-payment
+	ul
+		list-style-type: none
+li.content-payment__item
+	padding: 30px 0 30px 60px
+	border-top: 1px dashed #d9d9d9
+	&:first-child
+		border-top: none
+	h2
+		font-size: 20px
+		color: #414141
+	p
+		margin-top: 10px
+		font-size: 14px
+		color: #b2b2b2
+	article
+		margin: 16px 0
+		font-size: 16px
+		color: #787878
+.content-payment__item.payment-card
+	background: image-url('credit-card.png') no-repeat 2% 16%			
+.content-payment__item.cash-office
+	background: image-url('cash-office.png') no-repeat 2% 16%
+.content-payment__item.courier
+	background: image-url('courier.png') no-repeat 2% 16%
+.content-payment__item.vtb24
+	background: image-url('vtb24.png') no-repeat 1% 16%
+.content-payment__item.euroset
+	background: image-url('euroset.png') no-repeat 1% 18%						
