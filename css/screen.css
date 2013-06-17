@@ -33,8 +33,8 @@
 
 .info-razdel h2 { font-size: 26px; font-weight: normal; color: #787878; text-shadow: 1px 1px 0 white; margin-bottom: 28px; }
 
-.info-razdel, .feedback, .howtotrip, .stuff, .possible, .clients, .addresses, .slider, .about-propose, .options, .options-popup, .faq-popup, .hotels_item, .hotels__info { padding: 14px; font-family: "PF Din Text Cond Pro", sans-serif; }
-.info-razdel h3, .feedback h3, .howtotrip h3, .stuff h3, .possible h3, .clients h3, .addresses h3, .slider h3, .about-propose h3, .options h3, .options-popup h3, .faq-popup h3, .hotels_item h3, .hotels__info h3 { color: #787878; font-size: 20px; margin-bottom: 10px; font-weight: normal; }
+.info-razdel, .feedback, .howtotrip, .stuff, .possible, .clients, .addresses, .slider, .about-propose, .options, .options-popup, .faq-popup, .hotels_item, .hotels__info, .about { padding: 14px; font-family: "PF Din Text Cond Pro", sans-serif; }
+.info-razdel h3, .feedback h3, .howtotrip h3, .stuff h3, .possible h3, .clients h3, .addresses h3, .slider h3, .about-propose h3, .options h3, .options-popup h3, .faq-popup h3, .hotels_item h3, .hotels__info h3, .about h3 { color: #787878; font-size: 20px; margin-bottom: 10px; font-weight: normal; }
 
 .feedback { position: relative; }
 .feedback h3 { margin-bottom: 15px; }
@@ -293,3 +293,19 @@
 .gallary-hotel__feedbacks .hotels__rating { position: absolute; top: 0; right: 0; }
 .gallary-hotel__feedbacks .faq__nav { top: 0; right: 0; }
 .gallary-hotel__feedbacks article { padding: 16px 0; }
+
+.about { font-size: 16px; color: #787878; }
+.about h1 { display: block; height: 59px; line-height: 59px; border-bottom: 1px solid #cecece; font-size: 26px; color: #787878; }
+
+.content-about h2 { margin-top: 14px; line-height: 32px; font-size: 20px; color: #434343; }
+.content-about p { margin: 14px 0 0; }
+
+.license ul { margin: 14px 0; list-style-type: none; }
+.license li { display: inline-block; margin-left: 2px; width: 174px; height: 241px; border: 1px solid #cecece; }
+.license li:first-child { margin-left: 0px; }
+
+.bottom-menu { margin: 40px 0; font-size: 20px; color: #9bc122; }
+.bottom-menu ul { list-style-type: none; }
+.bottom-menu li { display: inline-block; padding: 0 16px; border-left: 1px solid #d7d7d7; }
+.bottom-menu li a { color: #9bc122; }
+.bottom-menu li:first-child { border-left: none; padding: 0 16px 0 0; }
